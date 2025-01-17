@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+form {
+    display: flex;
+    background-color: brown;
+    flex-direction: column;
+    width: 400px;
+    height: 800px;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    box-shadow: 0 0 25px 0px;
+    border-radius: 10px;
+
+}
+
+form h1 {
+    color: gold;
+    margin-top: 10px;
+}
+
+.inputLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.inputLabel label {
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputLabel input {
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;
+}
+
+.inputLabel input:focus {
+    outline: none;
+}
+
+#botao button {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    outline-color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+#botao button:hover {
+    background-color: gold;
+    box-shadow: 2px 2px 25px 0px yellow;
+}
+
+
+form #message {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    color: gold;
+}
+
+
+#tasksList {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    list-style: none;
+
+}
+
+#tasksList li {
+    padding-inline: 5px;
+    border: 1px solid;
+    line-height: 2;
+    background-color: white;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+#tasksList li:hover {
+    scale: 1.02;
+    transition: 0.5s;
+}
+
+@media (max-width: 900px) {
+    form {
+        margin-top: -2%;
+      scale: 0.8;
+    }
+
+ 
+
+}
