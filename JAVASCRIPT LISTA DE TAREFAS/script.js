@@ -9,7 +9,7 @@ if(inputTarefa.value === "") {
     document.getElementById("message").style.color="yellow";
 }else{
     document.getElementById("message").textContent="Tarefa adicionada com sucesso!"
-    document.getElementById("message").style.color="white";
+    document.getElementById("message").style.color="white"; 
     document.getElementById("message").style.fontSize="20px"
 let listaDeTarefas = document.getElementById("tasksList");
 let novaTarefa = document.createElement("li");
